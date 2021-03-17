@@ -43,7 +43,6 @@ class  Directory extends Component {
         }
       ]
     }
-    console.log("file: directory.component.jsx ~ line 48 ~ Directory ~ constructor ~ this.props", this.props)
 
   }
 

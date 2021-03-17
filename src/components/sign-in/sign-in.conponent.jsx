@@ -4,6 +4,7 @@ import {FormInput} from '../form-input/form-input.conponent';
 import {CustomButton} from '../custom-button/custom-button.conponent';
 import {signInWithGoogle} from '../../firebase/firebase.utils';
 
+
 class SignIn extends React.Component {
     constructor(props) {
         super(props);
@@ -19,6 +20,7 @@ class SignIn extends React.Component {
             email: '',
             password: ''
         });
+
     };
 
     handleChange = (event) => {
@@ -26,6 +28,7 @@ class SignIn extends React.Component {
         const {value, name} = event.target;
         this.setState({[name]: value});
     };
+
 
     render() {
         return (
